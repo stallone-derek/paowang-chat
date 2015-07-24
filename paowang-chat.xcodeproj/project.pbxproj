@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FC865DAFA4E231E19AA2048 /* libPods-paowang-chat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 231D43D8ED4E49A6FF2F5F90 /* libPods-paowang-chat.a */; };
+		65612DAB1B61E3640073A982 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65612DAA1B61E3640073A982 /* LoginViewController.swift */; };
+		65612DAD1B61E5FE0073A982 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65612DAC1B61E5FE0073A982 /* SignUpViewController.swift */; };
 		657AFBA21B61BA87003001B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657AFBA11B61BA87003001B9 /* AppDelegate.swift */; };
-		657AFBA41B61BA87003001B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657AFBA31B61BA87003001B9 /* ViewController.swift */; };
 		657AFBA71B61BA87003001B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 657AFBA51B61BA87003001B9 /* Main.storyboard */; };
 		657AFBA91B61BA87003001B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 657AFBA81B61BA87003001B9 /* Images.xcassets */; };
 		657AFBAC1B61BA87003001B9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 657AFBAA1B61BA87003001B9 /* LaunchScreen.xib */; };
@@ -26,16 +28,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		231D43D8ED4E49A6FF2F5F90 /* libPods-paowang-chat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-paowang-chat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65612DAA1B61E3640073A982 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		65612DAC1B61E5FE0073A982 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		657AFB9C1B61BA87003001B9 /* paowang-chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "paowang-chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		657AFBA01B61BA87003001B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		657AFBA11B61BA87003001B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		657AFBA31B61BA87003001B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		657AFBA61B61BA87003001B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		657AFBA81B61BA87003001B9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		657AFBAB1B61BA87003001B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		657AFBB11B61BA87003001B9 /* paowang-chatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "paowang-chatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		657AFBB61B61BA87003001B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		657AFBB71B61BA87003001B9 /* paowang_chatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paowang_chatTests.swift; sourceTree = "<group>"; };
+		659143E91B620047004BAA96 /* paowang-chat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "paowang-chat-Bridging-Header.h"; sourceTree = "<group>"; };
+		6AE2BF2F37B729B020289A0E /* Pods-paowang-chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paowang-chat.release.xcconfig"; path = "Pods/Target Support Files/Pods-paowang-chat/Pods-paowang-chat.release.xcconfig"; sourceTree = "<group>"; };
+		EECF0C2F47A5902A8A821CEC /* Pods-paowang-chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paowang-chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-paowang-chat/Pods-paowang-chat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FC865DAFA4E231E19AA2048 /* libPods-paowang-chat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +64,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02FEB1FF81D49DFBCC7B6B47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				231D43D8ED4E49A6FF2F5F90 /* libPods-paowang-chat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		657AFB931B61BA86003001B9 = {
 			isa = PBXGroup;
 			children = (
 				657AFB9E1B61BA87003001B9 /* paowang-chat */,
 				657AFBB41B61BA87003001B9 /* paowang-chatTests */,
 				657AFB9D1B61BA87003001B9 /* Products */,
+				772F743A21AF71711F54ABFD /* Pods */,
+				02FEB1FF81D49DFBCC7B6B47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,11 +96,13 @@
 			isa = PBXGroup;
 			children = (
 				657AFBA11B61BA87003001B9 /* AppDelegate.swift */,
-				657AFBA31B61BA87003001B9 /* ViewController.swift */,
 				657AFBA51B61BA87003001B9 /* Main.storyboard */,
+				65612DAA1B61E3640073A982 /* LoginViewController.swift */,
+				65612DAC1B61E5FE0073A982 /* SignUpViewController.swift */,
 				657AFBA81B61BA87003001B9 /* Images.xcassets */,
 				657AFBAA1B61BA87003001B9 /* LaunchScreen.xib */,
 				657AFB9F1B61BA87003001B9 /* Supporting Files */,
+				659143E91B620047004BAA96 /* paowang-chat-Bridging-Header.h */,
 			);
 			path = "paowang-chat";
 			sourceTree = "<group>";
@@ -112,6 +132,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		772F743A21AF71711F54ABFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EECF0C2F47A5902A8A821CEC /* Pods-paowang-chat.debug.xcconfig */,
+				6AE2BF2F37B729B020289A0E /* Pods-paowang-chat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 657AFBBB1B61BA87003001B9 /* Build configuration list for PBXNativeTarget "paowang-chat" */;
 			buildPhases = (
+				651B264960ABF91E88DC89FE /* Check Pods Manifest.lock */,
 				657AFB981B61BA87003001B9 /* Sources */,
 				657AFB991B61BA87003001B9 /* Frameworks */,
 				657AFB9A1B61BA87003001B9 /* Resources */,
+				560D86DBEB0237760A12B62A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,12 +238,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		560D86DBEB0237760A12B62A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-paowang-chat/Pods-paowang-chat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		651B264960ABF91E88DC89FE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		657AFB981B61BA87003001B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				657AFBA41B61BA87003001B9 /* ViewController.swift in Sources */,
+				65612DAD1B61E5FE0073A982 /* SignUpViewController.swift in Sources */,
+				65612DAB1B61E3640073A982 /* LoginViewController.swift in Sources */,
 				657AFBA21B61BA87003001B9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,21 +403,25 @@
 		};
 		657AFBBC1B61BA87003001B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EECF0C2F47A5902A8A821CEC /* Pods-paowang-chat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "paowang-chat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "paowang-chat/paowang-chat-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		657AFBBD1B61BA87003001B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AE2BF2F37B729B020289A0E /* Pods-paowang-chat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "paowang-chat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "paowang-chat/paowang-chat-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +478,7 @@
 				657AFBBD1B61BA87003001B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		657AFBBE1B61BA87003001B9 /* Build configuration list for PBXNativeTarget "paowang-chatTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +487,7 @@
 				657AFBC01B61BA87003001B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
